@@ -34,9 +34,4 @@ public class LionManeTest {
         assertEquals(expected, actual);
     }
 
-    @Test(expected = Exception.class)
-    public void testDoesLionHaveManeException() throws Exception {
-        new Lion("", feline);
-    }
-
 }
